@@ -33,11 +33,11 @@ def _unfuse(parts: Tuple[str, ...]) -> str:
 
 
 # TODO: 收到你的真实 GitHub owner 后，将 OWNER 更新为真实值
-OWNER = _unfuse(("10000", "ge", "10000"))
+OWNER = _unfuse(("on", "kn", "cn"))
 REPO = _unfuse(("damai", "-", "ticket", "-", "assistant"))
 
 # 数值仓库 ID 锁定（强绑定），收到你的真实 repo_id 后将其填入整数；None 表示未锁定
-REPO_ID_LOCK: Optional[int] = 1059334334
+REPO_ID_LOCK: Optional[int] = 1101896948
 
 # GitHub API 常量
 _UA = "DamaiTicketAssistant/3.0.0"
